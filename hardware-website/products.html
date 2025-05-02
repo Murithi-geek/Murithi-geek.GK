@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - KINOTI GK HARDWARE NKUBU</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/cart.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="KINOTI GK HARDWARE NKUBU Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="https://instagram.com/-roymworia" target="_blank">GALLERY</a></li>
+                <li><a href="career.html">CAREER</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="reviews.html">CUSTOMER REVIEW</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search products...">
+                <button id="search-button">Search</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="products">
+            <h1>Our Products</h1>
+            <div id="product-list">
+                <!-- Cement Category -->
+                <div class="product-category">
+                    <h2>Cement</h2>
+                    <div class="product-item">
+                        <img src="assets/images/cement 01.jpg" alt="Cement">
+                        <p>Brand: Bamburi</p>
+                        <p>Price: KES 700</p>
+                        <button class="add-to-cart" data-name="Cement - Bamburi" data-price="700">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="assets/images/cement 02.jpg" alt="Cement">
+                        <p>Brand: Savannah</p>
+                        <p>Price: KES 650</p>
+                        <button class="add-to-cart" data-name="Cement - Savannah" data-price="650">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Steel Bars Category -->
+                <div class="product-category">
+                    <h2>Steel Bars</h2>
+                    <div class="product-item">
+                        <img src="assets/images/steel bar 01.jpg" alt="Steel Bars">
+                        <p>Brand: Apex Steel</p>
+                        <p>Price: KES 1200</p>
+                        <button class="add-to-cart" data-name="Steel Bars - Apex Steel" data-price="1200">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Add more categories and products here -->
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <p>Total: KES <span id="cart-total">0</span></p>
+            <button id="pay-button">Pay</button>
+            <div id="payment-options" style="display: none;">
+                <button id="mpesa-button">Pay with M-Pesa</button>
+                <button id="equity-button">Pay with Equity Bank</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2023 KINOTI GK HARDWARE NKUBU. All rights reserved.</p>
+    </footer>
+    <script>
+        // Get the search query from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchQuery = urlParams.get('query') ? urlParams.get('query').toLowerCase() : '';
+
+        // Filter products based on the search query
+        if (searchQuery) {
+            const products = document.querySelectorAll('.product-item');
+            products.forEach(product => {
+                const productName = product.querySelector('p').textContent.toLowerCase();
+                if (productName.includes(searchQuery)) {
+                    product.style.display = 'block'; // Show matching product
+                } else {
+                    product.style.display = 'none'; // Hide non-matching products
+                }
+            });
+        }
+    </script>
+</body>
+</html>
