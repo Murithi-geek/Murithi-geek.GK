@@ -1,0 +1,480 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - KINOTI GK HARDWARE NKUBU</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Flowbite CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#ff7200',
+                        secondary: '#4CAF50',
+                        dark: '#333333'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <header class="bg-primary shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="KINOTI GK HARDWARE NKUBU Logo" class="h-16">
+            </div>
+            
+            <button data-collapse-toggle="navbar" type="button" class="md:hidden text-white focus:outline-none" aria-controls="navbar" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            
+            <div class="hidden md:flex flex-col md:flex-row justify-between items-center w-full md:w-auto" id="navbar">
+                <ul class="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0">
+                    <li><a href="index.html" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 md:border-0 md:p-0 font-bold hover:text-secondary duration-200">HOME</a></li>
+                    <li><a href="about.html" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 md:border-0 md:p-0 font-bold hover:text-secondary duration-200">ABOUT</a></li>
+                    <li><a href="products.html" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 md:border-0 md:p-0 font-bold hover:text-secondary duration-200">PRODUCTS</a></li>
+                    <li><a href="https://instagram.com/-roymworia" target="_blank" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 md:border-0 md:p-0 font-bold hover:text-secondary duration-200">GALLERY</a></li>
+                    <li><a href="career.html" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 md:border-0 md:p-0 font-bold hover:text-secondary duration-200">CAREER</a></li>
+                    <li><a href="contact.html" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 md:border-0 md:p-0 font-bold hover:text-secondary duration-200">CONTACT</a></li>
+                    <li><a href="reviews.html" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 md:border-0 md:p-0 font-bold hover:text-secondary duration-200">CUSTOMER REVIEW</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container mx-auto px-4 py-12">
+        <!-- Page Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-primary mb-3">Our Products</h1>
+            <p class="text-gray-600 max-w-2xl mx-auto">Explore our extensive range of high-quality construction materials and hardware supplies. We stock everything you need for your building projects at competitive prices.</p>
+        </div>
+        
+        <!-- Product Categories -->
+        <div class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Product Categories</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Category 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-gray-200 relative">
+                        <img src="assets/images/cement 01.jpg" alt="Cement Products" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <a href="#cement" class="bg-primary text-white py-2 px-4 rounded-md hover:bg-orange-600 transition duration-200">View Products</a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-1">Cement Products</h3>
+                        <p class="text-gray-600 text-sm">High-quality cement products for all your construction needs</p>
+                    </div>
+                </div>
+                
+                <!-- Category 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-gray-200 relative">
+                        <img src="assets/images/steel bar 01.jpg" alt="Steel Products" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <a href="#steel" class="bg-primary text-white py-2 px-4 rounded-md hover:bg-orange-600 transition duration-200">View Products</a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-1">Steel Products</h3>
+                        <p class="text-gray-600 text-sm">Reinforcement bars, structural steel, and metal products</p>
+                    </div>
+                </div>
+                
+                <!-- Category 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-gray-200 relative">
+                        <img src="assets/images/WhatsApp Image 2025-04-03 at 23.32.53.jpeg" alt="Plumbing Supplies" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <a href="#plumbing" class="bg-primary text-white py-2 px-4 rounded-md hover:bg-orange-600 transition duration-200">View Products</a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-1">Plumbing Supplies</h3>
+                        <p class="text-gray-600 text-sm">Complete range of plumbing fixtures, pipes, and fittings</p>
+                    </div>
+                </div>
+                
+                <!-- Category 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-gray-200 relative">
+                        <img src="assets/images/logo.png" alt="Tools & Equipment" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <a href="#tools" class="bg-primary text-white py-2 px-4 rounded-md hover:bg-orange-600 transition duration-200">View Products</a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-1">Tools & Equipment</h3>
+                        <p class="text-gray-600 text-sm">Hand tools, power tools, and construction equipment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Featured Products -->
+        <div class="mb-16">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Featured Products</h2>
+            
+            <!-- Cement Products Section -->
+            <section id="cement" class="mb-12">
+                <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
+                    <span class="w-1 h-6 bg-primary mr-2 inline-block"></span>
+                    Cement Products
+                </h3>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <!-- Cement Product 1 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/cement 01.jpg" alt="Portland Cement" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">Portland Cement 50kg</h4>
+                            <p class="text-gray-600 text-sm mb-3">High-quality general purpose cement for construction</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 850.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="c1" data-name="Portland Cement 50kg" data-price="850">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Cement Product 2 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/cement 02.jpg" alt="Waterproof Cement" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">Waterproof Cement 50kg</h4>
+                            <p class="text-gray-600 text-sm mb-3">Special cement for water-resistant applications</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 950.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="c2" data-name="Waterproof Cement 50kg" data-price="950">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Cement Product 3 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/cement 01.jpg" alt="Rapid Set Cement" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">Rapid Set Cement 25kg</h4>
+                            <p class="text-gray-600 text-sm mb-3">Fast-setting cement for quick repair jobs</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 680.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="c3" data-name="Rapid Set Cement 25kg" data-price="680">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Steel Products Section -->
+            <section id="steel" class="mb-12">
+                <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
+                    <span class="w-1 h-6 bg-primary mr-2 inline-block"></span>
+                    Steel Products
+                </h3>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <!-- Steel Product 1 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/steel bar 01.jpg" alt="Reinforcement Steel Bars" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">Reinforcement Steel 12mm</h4>
+                            <p class="text-gray-600 text-sm mb-3">High tensile reinforcement bars (per length)</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 1,200.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="s1" data-name="Reinforcement Steel 12mm" data-price="1200">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Steel Product 2 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/steel bar 01.jpg" alt="Reinforcement Steel Bars" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">Reinforcement Steel 8mm</h4>
+                            <p class="text-gray-600 text-sm mb-3">Standard reinforcement bars for concrete (per length)</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 750.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="s2" data-name="Reinforcement Steel 8mm" data-price="750">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Steel Product 3 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/steel bar 01.jpg" alt="Binding Wire" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">Binding Wire (Roll)</h4>
+                            <p class="text-gray-600 text-sm mb-3">Galvanized binding wire for reinforcement</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 450.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="s3" data-name="Binding Wire (Roll)" data-price="450">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Plumbing Section -->
+            <section id="plumbing" class="mb-12">
+                <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
+                    <span class="w-1 h-6 bg-primary mr-2 inline-block"></span>
+                    Plumbing Supplies
+                </h3>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <!-- Plumbing Product 1 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/WhatsApp Image 2025-04-03 at 23.32.53.jpeg" alt="PVC Pipes" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">PVC Pipes 4-inch (3m)</h4>
+                            <p class="text-gray-600 text-sm mb-3">High-quality PVC pipes for drainage</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 350.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="p1" data-name="PVC Pipes 4-inch (3m)" data-price="350">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Plumbing Product 2 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/WhatsApp Image 2025-04-03 at 23.32.53.jpeg" alt="Water Tank" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">Water Tank 1000L</h4>
+                            <p class="text-gray-600 text-sm mb-3">Plastic water storage tank with fittings</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 12,500.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="p2" data-name="Water Tank 1000L" data-price="12500">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Plumbing Product 3 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/WhatsApp Image 2025-04-03 at 23.32.53.jpeg" alt="Water Tap" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">Brass Water Tap</h4>
+                            <p class="text-gray-600 text-sm mb-3">Durable brass water tap for garden or kitchen</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 450.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="p3" data-name="Brass Water Tap" data-price="450">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Tools Section -->
+            <section id="tools" class="mb-12">
+                <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
+                    <span class="w-1 h-6 bg-primary mr-2 inline-block"></span>
+                    Tools & Equipment
+                </h3>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <!-- Tool Product 1 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/logo.png" alt="Hammer" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">Claw Hammer</h4>
+                            <p class="text-gray-600 text-sm mb-3">Professional quality claw hammer with wooden handle</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 650.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="t1" data-name="Claw Hammer" data-price="650">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tool Product 2 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/logo.png" alt="Measuring Tape" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">Measuring Tape 5m</h4>
+                            <p class="text-gray-600 text-sm mb-3">Retractable measuring tape with lock</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 250.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="t2" data-name="Measuring Tape 5m" data-price="250">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tool Product 3 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300 flex flex-col">
+                        <img src="assets/images/logo.png" alt="Wheelbarrow" class="w-full h-48 object-cover">
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-bold text-lg mb-1">Construction Wheelbarrow</h4>
+                            <p class="text-gray-600 text-sm mb-3">Heavy-duty construction wheelbarrow</p>
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-primary">Ksh 3,500.00</span>
+                                <button class="add-to-cart bg-secondary hover:bg-green-600 text-white py-1 px-3 rounded-md text-sm transition duration-200" data-id="t3" data-name="Construction Wheelbarrow" data-price="3500">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Shopping Cart -->
+        <div class="fixed bottom-5 right-5">
+            <button id="cart-button" class="bg-primary hover:bg-orange-600 text-white p-4 rounded-full shadow-lg flex items-center justify-center transition duration-300">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                </svg>
+                <span id="cart-count" class="absolute -top-2 -right-2 bg-secondary text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">0</span>
+            </button>
+        </div>
+        
+        <!-- Cart Modal -->
+        <div id="cart-modal" class="hidden fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center z-50">
+            <div class="bg-white rounded-lg shadow-xl max-w-md w-full max-h-[80vh] flex flex-col">
+                <div class="p-4 border-b border-gray-200">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold text-gray-800">Your Cart</h3>
+                        <button id="close-cart" class="text-gray-400 hover:text-gray-500">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="flex-1 overflow-y-auto p-4">
+                    <div id="cart-items" class="space-y-3">
+                        <!-- Cart items will be inserted here via JavaScript -->
+                        <p id="empty-cart-message" class="text-center text-gray-500 py-6">Your cart is empty</p>
+                    </div>
+                </div>
+                
+                <div class="p-4 border-t border-gray-200">
+                    <div class="flex justify-between items-center font-bold text-lg mb-4">
+                        <span>Total:</span>
+                        <span id="cart-total" class="text-primary">Ksh 0.00</span>
+                    </div>
+                    
+                    <div class="flex space-x-4">
+                        <button id="clear-cart" class="flex-1 bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 rounded-md text-center font-medium transition duration-200">
+                            Clear Cart
+                        </button>
+                        <button id="checkout-button" class="flex-1 bg-primary hover:bg-orange-600 text-white py-2 rounded-md text-center font-medium transition duration-200">
+                            Checkout
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="bg-dark text-white py-10 mt-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">KINOTI GK HARDWARE</h3>
+                    <p class="text-gray-300">Your one-stop shop for all hardware needs. Serving developers and constructors since 2000.</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-300 hover:text-primary transition duration-200">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-primary transition duration-200">About Us</a></li>
+                        <li><a href="products.html" class="text-gray-300 hover:text-primary transition duration-200">Products</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-primary transition duration-200">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 mt-1 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                            </svg>
+                            Nkubu Town, Meru County
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 mt-1 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                            </svg>
+                            +254 700 000 000
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 mr-2 mt-1 text-primary" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                            info@kinotigkhardware.com
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Opening Hours</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li>Monday - Friday: 8:00 AM - 6:00 PM</li>
+                        <li>Saturday: 8:00 AM - 4:00 PM</li>
+                        <li>Sunday: 9:00 AM - 1:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2025 KINOTI GK HARDWARE NKUBU. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="text-white hover:text-primary transition duration-200">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com/-roymworia" class="text-white hover:text-primary transition duration-200">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-white hover:text-primary transition duration-200">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Flowbite JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+    
+    <!-- Cart Functionality -->
+    <script src="assets/js/cart.js"></script>
+</body>
+</html>
